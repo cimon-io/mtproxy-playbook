@@ -1,0 +1,17 @@
+---
+- src: https://github.com/cimon-io/ansible-role-ansible-user.git
+  scm: git
+  version: 4ef7f9f2e18e84400b8547647d98e75813dd7f8e
+  name: ansible-user
+- src: https://github.com/cimon-io/ansible-role-firewall.git
+  scm: git
+  version: 1d89607dbb35582755556313bb131a74da571898
+  name: firewall
+- src: https://github.com/cimon-io/ansible-role-sshd.git
+  scm: git
+  version: aec11b55fba86bd4923c1a72f54af56c35c4191c
+  name: sshd
+- src: https://github.com/cimon-io/ansible-role-mtproxy.git
+  scm: git
+  version: b6c66f0e24219082b215b38bc0627959cd3cbf73
+  name: mtproxy

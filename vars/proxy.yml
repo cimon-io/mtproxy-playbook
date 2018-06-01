@@ -1,0 +1,6 @@
+---
+proxy_ports:
+- 443
+
+mtproxy_http_ports: "{{ proxy_ports }}"
+mtproxy_slaves: 2

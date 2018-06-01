@@ -1,0 +1,11 @@
+---
+- hosts: proxy
+  roles:
+    - role: users
+    - role: sshd
+    - role: firewall
+      firewall_allowed_ports: "{{ proxy_ports }}"
+    - role: mtproxy
+  vars_files:
+    - "vars/users.yml"
+    - "vars/proxy.yml"

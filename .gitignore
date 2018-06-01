@@ -1,0 +1,5 @@
+/.vagrant
+/log/*.log
+/requirements/*
+/.srl
+/main.retry

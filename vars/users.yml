@@ -1,0 +1,10 @@
+---
+users_accounts:
+- name: "your_name"
+  groups: admin
+  key: "{{ lookup('file', 'files/public_keys/your_name.pub') }}"
+
+users_groups:
+ - name: admin
+   state: present
+   sudo: "ALL=(ALL) NOPASSWD:ALL"

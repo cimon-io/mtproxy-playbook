@@ -1,0 +1,7 @@
+---
+- hosts: all
+  gather_facts: False
+  become: True
+  tasks:
+    - name: "install deps: python sudo"
+      raw: "apt-get -q -y install python sudo"
