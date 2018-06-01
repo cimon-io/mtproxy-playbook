@@ -50,3 +50,7 @@ HowTo:
 7. Add `mtproxy_proxy_tag` variable with your tag to vars/proxy.yml
 
   `# echo "mtproxy_proxy_tag: \"your_tag_here\"" >> vars/proxy.yml`
+
+8. ... and simply run
+
+  `ansible-playbook -i production main.yml -tags=mtproxy-configure`
